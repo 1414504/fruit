@@ -1,0 +1,29 @@
+.image-logo{
+    width: 180px;
+}
+
+.navbar{
+    padding: 0px;
+    
+}
+
+.min-height{
+    min-height: 500px;
+}
+
+.footer{
+    
+    text-align: center;
+    height: 80px;
+    color: black;
+    background-color: green;
+    padding-top: 25px;
+}
+.border{
+    border: #000 dotted thin;
+    
+}
+
+.margin-top{
+    margin-top: 10px;
+}
