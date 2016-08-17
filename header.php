@@ -10,8 +10,8 @@
                 
                 <div class="col-md-10" style="background-image: url('image/banner.jpg'); color: white;">
 <!--                    <img src="image/banner.jpg" style="width:100%;">      -->
-                        <h2>Fruit Types</h2>
-                        <h3>An apple a day keeps the doctor away</h3>
+                        <h2>Food Types</h2>
+                        <h3><b>An apple a day keeps the doctor away<b></h3>
                         
                 </div>
     
