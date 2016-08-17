@@ -37,7 +37,7 @@
             <div class="row">
             
                 <div class="col-md-12 border footer">
-                    Designed by Shahid Baig 2016
+                    All rights are reserves. Designed by Shahid Baig 2016
                     
                 </div>
                 
