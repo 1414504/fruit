@@ -29,7 +29,7 @@
                 
                 <div class="col-md-10 border min-height">
                     <img src="image/banner.jpg" style="height: 90px; width: 100%;">
-                    <img src="image/logo.png" style="float: left; height: 60px;">
+                    <img src="image/fruit.jpeg" style="float: left; height: 60px;">
                     <p>jdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkp jdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkpjdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkpjdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkpjdk djsij odjoj sokdpop sdoksok osdksk sdjds sjdsjc osjdoj sjdsj psokdpo osdjpj psokdop dkscos podkp</p>
                 </div>
             </div>

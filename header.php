@@ -3,7 +3,7 @@
                 
             <div class="row border">
                 <div class="col-md-2">
-                    <a href="index.php"><img class ="image-logo" src="image/logo.png" alt="" /></a>
+                    <a href="index.php"><img class ="image-logo" src="image/fruit.jpeg" alt="" /></a>
 
                     
                 </div>
