@@ -16,7 +16,7 @@ if (isset($_GET['cat'])) {
         <script src="bootstrap/js/jquery-1.12.0.min.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
         <link href="style.css" rel="stylesheet" type="text/css"/>
-        <title>BugTracker</title>
+        <title>foodTracker</title>
     </head>
     <body>
 
@@ -43,22 +43,22 @@ if (mysqli_errno($con)) {
     die(mysqli_error($con) . " error connectiion failed.");
 }
 
-$sql = "select * from bug where lower(bug_category)=lower('$category')";
+$sql = "select * from food where lower(food_category)=lower('$category')";
 $result = $con->query($sql);
 $con->close();
 if (mysqli_num_rows($result) > 0) {
-    while ($bug = mysqli_fetch_array($result)) {
+    while ($food = mysqli_fetch_array($result)) {
         ?>
                             <div class = "row margin-top">
                                 <div class="col-md-6">
-                                    <label>Bug Name:</label> <?php echo $bug['bug_name']; ?>
+                                    <label>food Name:</label> <?php echo $food['food_name']; ?>
                                 </div>
 
                             </div>
 
                             <div class = "row margin-top">
                                 <div class="col-md-6">
-                                    <label>Category</label> <?php echo $bug['bug_category']; ?>
+                                    <label>Category</label> <?php echo $food['food_category']; ?>
                                 </div>
 
                             </div>
@@ -66,7 +66,7 @@ if (mysqli_num_rows($result) > 0) {
                             <div class = "row margin-top">
                                 <div class="col-md-12">
                                     <label>Summary</label><br>
-        <?php echo $bug['bug_summary']; ?>
+        <?php echo $food['food_summary']; ?>
                                 </div>
 
                             </div>
