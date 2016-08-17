@@ -62,7 +62,11 @@ if(isset($_POST['save_food']))
                     
                       <div class = "row" style="margin-top: 10px;">
                         <div class="col-md-3"> food Catagory </div>
-                        <div class="col-md-9"> <input name="food_category" type="text" class="form-control" required=""></div>
+                        <div class="col-md-9"> <select name="food_category" type="text" class="form-control" required="">
+                                <option value="vegetarian">Vegetarian</option>
+                                <option value="nonveg">Non Vegetarian</option>
+                                <option value="animal">Animal Food</option>
+                            </select></div>
                     </div>
                     <div class="row" style="margin-top: 10px">
                         <div class="col-md-2" style="float:right;">
